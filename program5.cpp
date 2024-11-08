@@ -1,5 +1,5 @@
 // #include<bits/stdc++.h>
-// using namespace std;
+// using namespace std ;
 // int fre_no(vector<int> & a,int n)
 // {
 // int i,j;
