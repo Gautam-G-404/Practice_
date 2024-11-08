@@ -41,6 +41,7 @@
 // int small=INT_MAX,second_small=INT_MAX;
 // int large=INT_MIN,second_large=INT_MIN;
 
+
 // for(int i=0;i<n;i++)
 // {
 // small=min(small,a[i]);
