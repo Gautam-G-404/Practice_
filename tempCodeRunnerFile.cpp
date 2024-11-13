@@ -1,1 +1,4 @@
-cout<< sum_array(a,n);
+if(i<k)
+        {
+            cout<<a[i];
+        }
