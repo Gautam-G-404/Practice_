@@ -1,4 +1,4 @@
-if(i<k)
-        {
-            cout<<a[i];
-        }
+
+int main()
+{
+    ss();
