@@ -35,6 +35,8 @@ int main()
         }
         else{
             mp[first]=second;
+
+            
         }
     }
 }
