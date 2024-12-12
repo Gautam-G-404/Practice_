@@ -52,5 +52,5 @@ int main()
     }
     rotate_by_left(a,n,k);
     cout<<endl;
-    rotate_by_right(a,n,k);
+    rotate_by_left(a,n,k);
 }
