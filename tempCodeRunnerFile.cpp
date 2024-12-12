@@ -1,4 +1,1 @@
-for(int i=1;i<x.second;i++)
-        // {
-        // cout<<x.first;
-        // }
+rotate_by_left(a,n,k);
