@@ -33,14 +33,16 @@ for(int i=0;i<n;i++)
 {
     total_sum=total_sum+a[i];
 }
+int left_sum=0,right_sum=total_sum;
 for(int i=0;i<n;i++)
-{
-    int left_sum=0,right_sum=right_sum-a[i]; 
+{ 
+    right_sum=right_sum-a[i];
     if(left_sum==right_sum)
     {
         return i;
     } 
-    else{
+    else
+    {
     left_sum=left_sum+a[i];
     }
 }
@@ -57,7 +59,6 @@ int main()
     {
         cin>>a[i];
     }
-    equilibirium_index(a,n);
     cout<<endl;
     cout<<equilibirium_index2(a,n);
 }
